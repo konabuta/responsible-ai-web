@@ -10,10 +10,10 @@ module.exports = {
   projectName: 'responsible-ai-web', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Responsible AI',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Azure ML Logo',
+        src: 'img/azureml.svg',
       },
       items: [
         {to: 'docs/research', label: 'Research', position: 'left'},
@@ -73,7 +73,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Microsoft`,
     },
   },
   presets: [
