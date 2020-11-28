@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'responsible-aie',
   url: 'https://konabuta.github.io',
   baseUrl: '/responsible-ai-web/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'konabuta', // Usually your GitHub org/user name.
@@ -30,15 +30,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Research',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Collections',
+              to: 'research/',
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2/',
+              to: 'research/reference.md',
             },
           ],
         },
