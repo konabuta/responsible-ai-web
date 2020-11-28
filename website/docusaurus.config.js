@@ -16,13 +16,9 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'docs/research', label: 'Research', position: 'left'},
+        //{to: 'docs/cheatsheet/', label: 'Document', position: 'left',},
+        //{to: 'docs/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
