@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Responsible AI Collection',
-  tagline: 'responsible-aie',
+  tagline: 'Are your machine learnin models and systems responsible ?',
   url: 'https://konabuta.github.io',
   baseUrl: '/responsible-ai-web/',
   onBrokenLinks: 'ignore',
