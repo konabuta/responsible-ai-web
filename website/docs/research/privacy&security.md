@@ -2,7 +2,7 @@
 id: privacy&security
 title: "Privacy & Security"
 sidebar_label: "Privacy & Security"
-slug: /research/
+slug: /research/privacy&security
 ---
 
-privacy & security ...
+privacy & security page
