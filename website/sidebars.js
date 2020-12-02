@@ -5,7 +5,7 @@ module.exports = {
         type: 'category',
         label: 'Collections',
         collapsed: true,
-        items: ['research/privacy&security'],
+        items: ['research/research','research/privacy&security'],
       },
       {
         type: 'doc',

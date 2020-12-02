@@ -1,8 +1,8 @@
 ---
 id: reference
-title: Reference
-sidebar_label: Reference
-slug: /research/
+title: "Reference"
+sidebar_label: "Reference"
+slug: /research/Reference
 ---
 
 ## External Links

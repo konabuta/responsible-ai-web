@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Responsible AI Collection',
-  tagline: 'Are your machine learnin models and systems responsible ?',
+  tagline: 'Are your machine learning models and systems responsible ?',
   url: 'https://konabuta.github.io',
   baseUrl: '/responsible-ai-web/',
   onBrokenLinks: 'ignore',
@@ -16,7 +16,7 @@ module.exports = {
         src: 'img/azureml.svg',
       },
       items: [
-        {to: 'docs/research', label: 'Research', position: 'left'},
+        {to: 'docs/research/', label: 'Research', position: 'left'},
         //{to: 'docs/cheatsheet/', label: 'Document', position: 'left',},
         //{to: 'docs/blog', label: 'Blog', position: 'left'},
         {
