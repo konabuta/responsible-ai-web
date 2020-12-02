@@ -11,4 +11,5 @@ slug: /research/
 
 ## Papers
 - [Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874)
+- [Explaining by Removing: A Unified Framework for Model Explanation](https://arxiv.org/abs/2011.14878)
 ## Event
