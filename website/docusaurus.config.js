@@ -16,11 +16,11 @@ module.exports = {
         src: 'img/azureml.svg',
       },
       items: [
+        {to: 'docs/microsoft/', label: 'Microsoft', position: 'left',},
         {to: 'docs/research/', label: 'Research', position: 'left'},
-        //{to: 'docs/cheatsheet/', label: 'Document', position: 'left',},
         //{to: 'docs/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/konabuta/responsible-ai-web',
           label: 'GitHub',
           position: 'right',
         },
