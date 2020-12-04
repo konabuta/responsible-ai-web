@@ -24,13 +24,14 @@ C -> B -> A
 
 シャープレイ値は、下記の式で表現することできます。
 
-$\phi_i = \sum_{\substack{S\subseteqq F\backslash\{i\}}}\frac{|S|!(|F|-|S|-1)!}{|F|!}[f_{S\cup\{i\}}(x_{S\cup\{i\}}) - f_S(x_S)]$
+$\large \phi_i = \sum_{\substack{S\subseteqq F\backslash\{i\}}}\frac{|S|!(|F|-|S|-1)!}{|F|!}[f_{S\cup\{i\}}(x_{S\cup\{i\}}) - f_S(x_S)]$
 
 
 
 
 機械学習においては、各プレイヤーをそれぞれ特徴量、賞金を予測値と考えます。つまりシャープレイ値が特徴量の貢献度を表すと考えます。
 
+<br/>
 
 ## SHAP
 <img src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/shap_header.png" />

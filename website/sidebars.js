@@ -14,6 +14,10 @@ module.exports = {
         id: 'microsoft/tools', 
       },
       {
+        type: 'doc',
+        id: 'microsoft/interpretability', 
+      },
+      {
         type: 'category',
         label: 'InterpretML',
         collapsed: true,

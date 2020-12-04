@@ -1,6 +1,5 @@
-const katex = require('rehype-katex');
 const math = require('remark-math');
-
+const katex = require('rehype-katex');
 module.exports = {
   title: 'Responsible AI Collection',
   tagline: 'Are your machine learning models and systems responsible ?',
