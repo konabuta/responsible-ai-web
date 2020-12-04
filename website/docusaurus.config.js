@@ -1,3 +1,6 @@
+const katex = require('rehype-katex');
+const math = require('remark-math');
+
 module.exports = {
   title: 'Responsible AI Collection',
   tagline: 'Are your machine learning models and systems responsible ?',
@@ -8,6 +11,15 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'konabuta', // Usually your GitHub org/user name.
   projectName: 'responsible-ai-web', // Usually your repo name.
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
+      crossorigin: 'anonymous',
+    },
+  ],
   themeConfig: {
     navbar: {
       title: 'Responsible AI',
@@ -16,11 +28,11 @@ module.exports = {
         src: 'img/azureml.svg',
       },
       items: [
-        {to: 'docs/research/', label: 'Research', position: 'left'},
-        //{to: 'docs/cheatsheet/', label: 'Document', position: 'left',},
+        {to: 'docs/microsoft/', label: 'Microsoft', position: 'left',},
+        //{to: 'docs/research/', label: 'Research', position: 'left'},
         //{to: 'docs/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/konabuta/responsible-ai-web',
           label: 'GitHub',
           position: 'right',
         },
@@ -82,9 +94,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+          showLastUpdateTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/konabuta/responsible-ai-web/edit/master/website/',
         },
         blog: {
           showReadingTime: true,

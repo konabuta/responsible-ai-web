@@ -1,6 +1,28 @@
 module.exports = {
   mainSidebar: {
-    'Menu': [
+    'Microsoft': [
+      {
+        type: 'doc',
+        id: 'microsoft/responsible-ai', 
+      },
+      {
+        type: 'doc',
+        id: 'microsoft/guidelines', 
+      },
+      {
+        type: 'doc',
+        id: 'microsoft/tools', 
+      },
+      {
+        type: 'category',
+        label: 'InterpretML',
+        collapsed: true,
+        items: ['microsoft/interpretML', 'microsoft/ebm','microsoft/shap','microsoft/other'],
+      },
+    ],
+  },
+  secondarySidebar: {
+    'Research': [
       {
         type: 'category',
         label: 'Collections',
@@ -11,12 +33,6 @@ module.exports = {
         type: 'doc',
         id: 'research/reference'
       },
-      // {
-      //   type: 'category',
-      //   label: 'Getting Started',
-      //   collapsed: false,
-      //   items: ['test1'],
-      // },
     ]
-  },
+  }
 };
