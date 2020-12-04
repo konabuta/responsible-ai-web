@@ -1,8 +1,18 @@
 ---
 id: tools
-title: "ツール"
+title: "ツール for 責任のある AI"
 sidebar_label: "ツール"
 slug: /microsoft/tools
 ---
 
-# 責任のある AI の実現をサポートするツール
+## Understand
+- InterpretML
+- Fairlearn
+## Protect
+- Confidential computing for ML
+- Differential privacy
+- SEAL homomorphic encryption
+- Presidio
+
+## Control
+- Audit trail and traceability
